@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),marlin)
+ifeq ($(TARGET_DEVICE),sailfish)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := VZWAPNLib
